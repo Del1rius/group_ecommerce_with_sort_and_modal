@@ -87,6 +87,7 @@ button {
 button:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 300px) {

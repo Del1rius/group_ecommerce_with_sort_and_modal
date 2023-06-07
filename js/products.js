@@ -71,7 +71,7 @@ const products = [
     });
   }
   
-  let cart = JSON.parse(localStorage.getItem('data')) || [];
+  let cart = JSON.parse(localStorage.getItem("data")) || [];
   
   function addToCart(productId) {
     const cartContainer = document.getElementById("cart-container");
@@ -105,7 +105,6 @@ const products = [
 function setItems() {
     const cartContainer = document.getElementById("cart-container");
     localStorage.setItem("data", JSON.stringify(cart))
-    console.log(cart)
 }
 
 function showTask() {
@@ -121,3 +120,4 @@ function showTask() {
   
   
 showTask();
+
